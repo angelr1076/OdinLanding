@@ -1,23 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* font-family: 'Roboto',sans-serif; */
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  flex: 1; 
   margin: 0;
+  /* padding: 5px; */
 }
 
 html {
   font-family: 'Roboto', sans-serif;
 }
 
-button {
-  background-color: #3882F6;
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  flex: 2;
+}
+
+.logo img {
+  width: 200px;
+  /* vertical-align: middle; */
+}
+
+.nav__item {
+  list-style: none;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+
+.nav__links--link {
+  /* display: flex; */
+  text-decoration: none;
   color: #fff;
 }
 
@@ -26,7 +56,56 @@ button {
   color: #fff;
 }
 
-.main {
+.hero__main {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #F9FAF8;
+  width: 50%;
+}
+
+.hero__container {
   display: flex;
-  flex-direction: column;
+}
+
+.hero__secondary {
+  font-size: 1.125rem;
+  color: #E5E7EB;
+  width: 50%;
+}
+
+button {
+  background-color: #3882F6;
+  color: #fff;
+}
+
+.gallery__title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #1F2937;
+}
+
+.gallery__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  text-align: center;
+}
+
+.card img {
+  width: 150px;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+}
+
+.quote__text {
+  font-size: 2.25rem;
+  font-style: italic;
+  color: #1F2937;
+  margin: 10px;
+  padding: 2px;
 }
