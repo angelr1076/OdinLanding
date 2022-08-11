@@ -6,6 +6,17 @@
   --darkblue: #1F2937;
   --solidwhite: #fff;
   --lightgray: #E5E7EB;
+  --beachblue: #3882F6;
+  --aqua: #52B2BF;
+  --seablue: #4f8be6;
+  --slategray: #5e7493;
+  --coral: #e66465; 
+  --grayblue: #9198e5;
+  --seafoam: #48AAAD; 
+  --royalblue: #3944BC;
+  --beachlifegreen: #0492C2; 
+  --babybeach: #82EFFD;
+  --grayishgreen: #9198e5;
 }
 
 body {
@@ -106,15 +117,15 @@ button {
 }
 
 .hero__btn {
-  background-color: #3882F6;
+  background-color: var(--beachblue); 
 }
 
 .footer__btn {
-  background-color: #52B2BF;
+  background-color: var(--aqua); 
 }
 
 button:hover {
-  background-color: #4f8be6;
+  background-color: var(--seablue);
   cursor: pointer;
 }
 
@@ -128,7 +139,7 @@ button:hover {
   justify-content: center;
   font-size: 2.25rem;
   font-weight: bold;
-  color: #5e7493;
+  color: var(--slategray);
 }
 
 .gallery__title--title {
@@ -161,31 +172,50 @@ hr {
 }
 
 .card-1 {
-  background: linear-gradient(#e66465, #9198e5);
+  background: linear-gradient(var(--coral), var(--grayblue)); 
 }
 
 .card-2 {
-  background: linear-gradient(#3944BC, #48AAAD);
+  background: linear-gradient(var(--royalblue) , var(--seafoam));
 }
 
 .card-3 {
-  background: linear-gradient(#0492C2, #82EFFD);
+  background: linear-gradient(var(--beachlifegreen), var(--babybeach));
 }
 
 .card-4 {
-  background: linear-gradient(#52B2BF, #9198e5);
+  background: linear-gradient(var(--aqua), var(--grayishgreen));
+}
+
+.card__title {
+  font-weight: 500;
+}
+
+.card__desc {
+  color: var(--slategray)
 }
 
 .quote-section {
   background-color: var(--lightgray);
 }
 
+.quote__container {
+  display: flex;
+  flex-direction: column;
+}
+
 .quote__text {
   font-size: 2.25rem;
   font-style: italic;
+  justify-content: center;
   color: var(--darkblue);
   margin: 10px;
   padding: 2px;
+}
+
+.quote__author {
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .quote__container {
@@ -197,7 +227,7 @@ hr {
 }
 
 .footer__container {
-  background-color: #52B2BF;
+  background-color: var(--aqua);
   color: var(--solidwhite);
   width: 50%;
   display: flex;
