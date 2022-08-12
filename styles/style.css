@@ -86,7 +86,7 @@ html {
 }
 
 .hero__main {
-  /* text-transform: uppercase; */
+  text-transform: capitalize;
   font-size: 3rem;
   font-weight: bold;
   color: var(--solidwhite);
@@ -95,7 +95,7 @@ html {
 
 .hero__container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .hero__secondary {
@@ -106,7 +106,6 @@ html {
 }
 
 .hero img {
-  width: 1400px;
   max-width: 100%;
 }
 
