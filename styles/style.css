@@ -90,11 +90,12 @@ html {
   font-size: 3rem;
   font-weight: bold;
   color: var(--solidwhite);
-  width: 50%;
+  width: 60%;
 }
 
 .hero__container {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .hero__secondary {
@@ -105,7 +106,7 @@ html {
 }
 
 .hero img {
-  width: 1000px;
+  width: 1400px;
   max-width: 100%;
 }
 
@@ -170,8 +171,8 @@ hr {
 
 .card-1, .card-2, .card-3, .card-4 {
   width: 250px;
-  height: 200px;
-  border-radius: 10px;
+  height: 250px;
+  border-radius: 50%;
 }
 
 .card-1 {
