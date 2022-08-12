@@ -115,7 +115,7 @@ button {
   padding: .5em 2em;
   font-size: 1.125rem;
   border-radius: 5px;
-  border: 2px solid var(--solidwhite);;
+  border: 2px solid var(--solidwhite);
   border-style: solid;
 }
 
