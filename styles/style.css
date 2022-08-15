@@ -219,8 +219,8 @@ hr {
 }
 
 .quote__author {
+  display: flex;
   justify-content: flex-end;
-  align-items: center;
 }
 
 .quote__container {
