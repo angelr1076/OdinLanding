@@ -147,6 +147,7 @@ button:hover {
 .gallery__title--title {
   font-size: 2.5rem;
   color: var(--lightcharcoal);
+  margin-bottom: 1.5em;
 }
 
 hr {
@@ -169,8 +170,8 @@ hr {
 }
 
 .card-1, .card-2, .card-3, .card-4 {
-  width: 250px;
-  height: 250px;
+  width: 260px;
+  height: 260px;
   border-radius: 50%;
 }
 
@@ -193,6 +194,7 @@ hr {
 .card__title {
   text-transform: uppercase;
   font-weight: 500;
+  margin-top: 2em;
 }
 
 .card__desc {
