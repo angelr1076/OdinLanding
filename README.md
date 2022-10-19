@@ -1,6 +1,6 @@
 # OdinLanding
 
-![Landing page img](https://res.cloudinary.com/angelrodriguez/image/upload/v1666208246/Odin%20Landing%20Page/Screen_Shot_2022-10-19_at_3.36.52_PM.png "Landing Page")
+![Landing page img](https://res.cloudinary.com/angelrodriguez/image/upload/v1666208367/Odin%20Landing%20Page/Screen_Shot_2022-10-19_at_3.39.13_PM.png "Landing Page")
 
 1. Download the design images and take a look at what you’re going to be creating here. Image One (Full Design), Image Two (Color and Fonts)
 
